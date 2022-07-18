@@ -1,4 +1,4 @@
-import { contractAddresses, abi } from "../constants"
+import { contractAddresses, abi } from "../constants/index"
 // dont export from moralis when using react
 import { useMoralis, useWeb3Contract } from "react-moralis"
 import { useEffect, useState } from "react"
